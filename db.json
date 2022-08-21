@@ -1,0 +1,10 @@
+{
+  "Students":[
+      {"id":1,"name":"Akash","score":90,"department":"CSE","location":"Mumbai"},
+      {"id":2,"name":"Rahul","score":80,"department":"IT","location":"Delhi"},
+      {"id":3,"name":"Jay","score":90,"department":"Mechanical","location":"Chennai"},
+      {"id":4,"name":"Vijay","score":89,"department":"ECE","location":"Banglore"},
+      {"id":5,"name":"Vikash","score":70,"department":"Electrical","location":"Pune"},
+      {"id":6,"name":"Ajay","score":90,"department":"Civil","location":"Hydrabad"}
+  ]
+}

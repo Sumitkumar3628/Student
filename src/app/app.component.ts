@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {StudentService} from './student.service'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Student';
+
+  public students:any = [];
+
+  constructor(private studentService:StudentService) { }
+
+  ngOnInit() {
+    this.studentService.getStudents().subscribe(data=> this.students = data);
+  }
+
 }
